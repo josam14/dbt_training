@@ -31,3 +31,110 @@ Runtime Error
 [0m18:57:04.800704 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075d89d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1085f4640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1085f4130>]}
 [0m18:57:04.801107 [debug] [MainThread]: Flushing usage events
 [0m18:57:05.397828 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:22:39.156577 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107633a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1086ad460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1086ad790>]}
+
+
+============================== 16:22:39.160666 | 3d99309b-a28a-42b8-8527-65cc6197cc89 ==============================
+[0m16:22:39.160666 [info ] [MainThread]: Running with dbt=1.10.22
+[0m16:22:39.161115 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'partial_parse': 'True', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug --config-dir', 'introspect': 'True', 'version_check': 'True', 'use_colors': 'True', 'log_format': 'default', 'log_path': 'logs', 'quiet': 'False', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'printer_width': '80', 'log_cache_events': 'False', 'static_parser': 'True', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'target_path': 'None', 'empty': 'None', 'profiles_dir': '/Users/aminselem/.dbt'}
+[0m16:22:39.172976 [info ] [MainThread]: To view your profiles.yml file, run:
+
+open /Users/aminselem/.dbt
+[0m16:22:39.175707 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 0.089148164, "process_in_blocks": "0", "process_kernel_time": 0.141755, "process_mem_max_rss": "99057664", "process_out_blocks": "0", "process_user_time": 1.104573}
+[0m16:22:39.176048 [debug] [MainThread]: Command `dbt debug` succeeded at 16:22:39.175969 after 0.09 seconds
+[0m16:22:39.176324 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107633a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108698580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108698b20>]}
+[0m16:22:39.176611 [debug] [MainThread]: Flushing usage events
+[0m16:22:39.645025 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:23:15.534765 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107527a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1085a24c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1085a27f0>]}
+
+
+============================== 16:23:15.538310 | 71465656-c1e2-48d5-9b02-0f887faf1ae7 ==============================
+[0m16:23:15.538310 [info ] [MainThread]: Running with dbt=1.10.22
+[0m16:23:15.538753 [debug] [MainThread]: running dbt with arguments {'use_experimental_parser': 'False', 'quiet': 'False', 'version_check': 'True', 'write_json': 'True', 'printer_width': '80', 'warn_error': 'None', 'empty': 'None', 'partial_parse': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'log_cache_events': 'False', 'debug': 'False', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug --config-dir', 'profiles_dir': '/Users/aminselem/.dbt', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True'}
+[0m16:23:15.546348 [info ] [MainThread]: To view your profiles.yml file, run:
+
+open /Users/aminselem/.dbt
+[0m16:23:15.548291 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 0.07429458, "process_in_blocks": "0", "process_kernel_time": 0.104034, "process_mem_max_rss": "100564992", "process_out_blocks": "0", "process_user_time": 1.107724}
+[0m16:23:15.548636 [debug] [MainThread]: Command `dbt debug` succeeded at 16:23:15.548555 after 0.07 seconds
+[0m16:23:15.548901 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107527a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10858cac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10858ce20>]}
+[0m16:23:15.549181 [debug] [MainThread]: Flushing usage events
+[0m16:23:15.971188 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:16:02.008453 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107eb3370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108f392e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108f39610>]}
+
+
+============================== 17:16:02.013724 | 8f3aed25-11b8-40f8-9e73-785c6f0c4181 ==============================
+[0m17:16:02.013724 [info ] [MainThread]: Running with dbt=1.10.22
+[0m17:16:02.014171 [debug] [MainThread]: running dbt with arguments {'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'no_print': 'None', 'target_path': 'None', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'empty': 'None', 'write_json': 'True', 'profiles_dir': '/Users/aminselem/.dbt', 'quiet': 'False', 'static_parser': 'True', 'printer_width': '80', 'partial_parse': 'True', 'version_check': 'True', 'use_colors': 'True', 'log_format': 'default', 'warn_error': 'None', 'cache_selected_only': 'False', 'introspect': 'True', 'debug': 'False'}
+[0m17:16:02.026138 [info ] [MainThread]: dbt version: 1.10.22
+[0m17:16:02.026380 [info ] [MainThread]: python version: 3.9.6
+[0m17:16:02.026584 [info ] [MainThread]: python path: /Users/aminselem/Documents/DBT/dbt_training/venv/bin/python3
+[0m17:16:02.026780 [info ] [MainThread]: os info: macOS-15.6-arm64-arm-64bit
+[0m17:16:03.170081 [info ] [MainThread]: Using profiles dir at /Users/aminselem/.dbt
+[0m17:16:03.170489 [info ] [MainThread]: Using profiles.yml file at /Users/aminselem/.dbt/profiles.yml
+[0m17:16:03.170712 [info ] [MainThread]: Using dbt_project.yml file at /Users/aminselem/Documents/DBT/dbt_training/dbt_project.yml
+[0m17:16:03.171250 [info ] [MainThread]: adapter type: snowflake
+[0m17:16:03.171462 [info ] [MainThread]: adapter version: 1.10.2
+[0m17:16:03.171668 [info ] [MainThread]: Configuration:
+[0m17:16:03.171860 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:16:03.172053 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:16:03.172245 [info ] [MainThread]: Required dependencies:
+[0m17:16:03.172489 [debug] [MainThread]: Executing "git --help"
+[0m17:16:03.195986 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:16:03.196707 [debug] [MainThread]: STDERR: "b''"
+[0m17:16:03.197008 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:16:03.197280 [info ] [MainThread]: Connection:
+[0m17:16:03.197552 [info ] [MainThread]:   account: HAWWJKG-MD70800.snowflakecomputing.com
+[0m17:16:03.197753 [info ] [MainThread]:   user: TRANSFORM_USER
+[0m17:16:03.197944 [info ] [MainThread]:   database: analytics
+[0m17:16:03.198135 [info ] [MainThread]:   warehouse: DBT_LEARN
+[0m17:16:03.198326 [info ] [MainThread]:   role: Transform_role
+[0m17:16:03.198513 [info ] [MainThread]:   schema: dbt
+[0m17:16:03.198705 [info ] [MainThread]:   authenticator: None
+[0m17:16:03.198892 [info ] [MainThread]:   oauth_client_id: None
+[0m17:16:03.199079 [info ] [MainThread]:   query_tag: None
+[0m17:16:03.199266 [info ] [MainThread]:   client_session_keep_alive: False
+[0m17:16:03.199454 [info ] [MainThread]:   host: None
+[0m17:16:03.199639 [info ] [MainThread]:   port: None
+[0m17:16:03.199824 [info ] [MainThread]:   proxy_host: None
+[0m17:16:03.200009 [info ] [MainThread]:   proxy_port: None
+[0m17:16:03.200193 [info ] [MainThread]:   protocol: None
+[0m17:16:03.200378 [info ] [MainThread]:   connect_retries: 1
+[0m17:16:03.200562 [info ] [MainThread]:   connect_timeout: None
+[0m17:16:03.200749 [info ] [MainThread]:   retry_on_database_errors: False
+[0m17:16:03.200936 [info ] [MainThread]:   retry_all: False
+[0m17:16:03.201122 [info ] [MainThread]:   insecure_mode: False
+[0m17:16:03.201307 [info ] [MainThread]:   reuse_connections: True
+[0m17:16:03.201492 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m17:16:03.202037 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m17:16:03.323477 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m17:16:03.361541 [debug] [MainThread]: Using snowflake connection "debug"
+[0m17:16:03.361872 [debug] [MainThread]: On debug: select 1 as id
+[0m17:16:03.362088 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:16:07.677576 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m17:16:07.677960 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m17:16:07.678268 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m17:16:07.678563 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:16:07.678774 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/aminselem/Documents/DBT/dbt_training/dbt_project.yml> not found
+
+[0m17:16:07.678985 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+  Verify that the hostnames and port numbers in SYSTEM$ALLOWLIST are added to your firewall's allowed list.
+  To further troubleshoot your connection you may reference the following article: https://docs.snowflake.com/en/user-guide/client-connectivity-troubleshooting/overview.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m17:16:07.681430 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 5.7389812, "process_in_blocks": "0", "process_kernel_time": 0.363296, "process_mem_max_rss": "168099840", "process_out_blocks": "0", "process_user_time": 2.163547}
+[0m17:16:07.681772 [debug] [MainThread]: Command `dbt debug` failed at 17:16:07.681686 after 5.74 seconds
+[0m17:16:07.682017 [debug] [MainThread]: Connection 'debug' was left open.
+[0m17:16:07.682226 [debug] [MainThread]: On debug: No close available on handle
+[0m17:16:07.682481 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107eb3370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bf7faf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bf7fb20>]}
+[0m17:16:07.682793 [debug] [MainThread]: Flushing usage events
+[0m17:16:08.403976 [debug] [MainThread]: An error was encountered while trying to flush usage events

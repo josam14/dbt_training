@@ -19,3 +19,12 @@ models:
         data_tests:
           - unique
           - not_null
+
+  - name: customers_totals # debe coincidir con el nombre del modelo definido en la carpeta "models".
+    description: "sum total of orders by customer"
+    columns:
+      - name: C_CUSTKEY
+        description: "The primary key for this table"
+        data_tests:
+          - unique
+          - not_null
